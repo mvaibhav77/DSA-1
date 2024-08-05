@@ -6,11 +6,11 @@ public class Permutation {
         int k = Integer.parseInt(args[0]);
         RandomizedQueue<String> list = new RandomizedQueue<String>();
 
-        while(!StdIn.isEmpty()){
+        while (!StdIn.isEmpty()) {
             list.enqueue(StdIn.readString());
         }
 
-        for(int i=0; i<k; i++){
+        for (int i = 0; i < k; i++) {
             StdOut.println(list.dequeue());
         }
 
